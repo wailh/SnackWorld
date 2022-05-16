@@ -1,0 +1,53 @@
+
+.form {
+    background-color: rgb(35, 41, 56);
+    color:aliceblue;
+    padding: 50px 150px;
+    margin: 30px 40px 50px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    }
+
+.form h1 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.form form {
+    text-align: right;
+    box-sizing: border-box;
+
+}
+
+.form form input:not([type=submit]:not(:disabled)) {
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 1.5rem;
+    display: block;
+    width: 100%;
+}
+
+.form form p {
+    color:rgb(255, 37, 81);
+    text-align: left;
+    margin-top: 5px;
+}
+
+[type=submit]:not(:disabled) {
+    background-color: rgb(248, 105, 2);
+    color: aliceblue;
+    border-radius: 20px ;
+    padding: 10px 50px;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+}
+[type=submit]:not(:disabled):hover {
+    box-sizing: border-box;
+    padding: 15px 60px;
+
+}

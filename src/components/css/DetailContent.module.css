@@ -1,0 +1,147 @@
+.detail {
+    padding: 70px 50px 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 550px;
+}
+
+@media (max-width: 768px) {
+    .detail {
+        padding: 10px 10px 100px;    
+        display: block;
+        height: unset;
+    }
+  }
+
+.product-left {
+    padding: 0 70px 30px;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .product-left  {
+       padding: 1rem 0;   
+       height: 15rem; 
+    }
+  }
+@media (min-width: 481px) and (max-width: 768px) {
+    .product-left  {
+        height: 23rem; 
+        padding: 0 2rem 2rem;  
+     }
+  }
+@media (min-width: 769px) and (max-width: 850px) {
+    .product-left  {
+        padding: 0 1rem 2rem;
+        height: 100%;
+     }
+  }
+.product-left img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.detail .product-right {
+   padding: 10px 20px;
+}
+
+.detail .product-right .title {
+    text-transform: capitalize;  
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .detail .product-right .title {
+        font-size: 1.6rem;
+    }
+  }
+@media (min-width: 769px) and (max-width: 850px) {
+    .detail .product-right .title {
+        font-size: 2rem;
+    }
+  }
+
+.detail .product-right .price {
+    color: #e95600;
+    border-bottom: 3px solid #e95600;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .detail .product-right .price {
+        font-size: 1.2rem;
+    }
+  }
+@media (min-width: 769px) and (max-width: 850px) {
+    .detail .product-right .price {
+        font-size: 1.4rem;
+    }
+}
+
+.detail .product-right p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+@media (max-width: 768px) {
+    .detail .product-right p {
+        font-size: 0.8rem;
+    }
+  }
+
+.detail .product-right .amount > * {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .detail .product-right .amount > * {
+        margin-left: unset;
+    }
+  }
+.detail .product-right .amount label {
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .detail .product-right .amount label {
+        font-size: .9rem;
+        margin-right: .6rem;
+    }
+  }
+@media (min-width: 769px) and (max-width: 850px) {
+    .detail .product-right .amount label {
+        font-size: .8rem;
+        margin-right: .6rem;
+    }
+}
+
+.detail .product-right .amount input {
+    width: 80px;
+}
+@media (max-width: 768px) {
+    .detail .product-right .amount input {
+        width: unset;
+        margin-right: unset;
+    }
+  }
+
+.detail .product-right .amount .addToCart {
+    color: aliceblue;
+    background-color: #f37430;
+    border-radius: 24px;
+    padding: 7px 30px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .detail .product-right .amount .addToCart  {
+        padding: 4px 11px;
+        float: right;
+        font-size: .9rem;
+    }
+  }
+@media (min-width: 769px) and (max-width: 850px) {
+    .detail .product-right .amount .addToCart  {
+        padding: 4px 11px;
+        float: right;
+        font-size: 1rem;
+    }
+}

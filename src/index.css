@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box !important;
+  font-family: Open Sans,sans-serif;
+}
+html, body, .App, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* for the slider */
+.carousel.carousel-slider li {
+  max-height: 100% !important;
+}
+/* pagination list */
+.pagination {
+  justify-content: center;
+}
+/* scroll To top button */
+.scroll-top {
+  bottom: 18px;
+   position: fixed;
+   right: 44px;
+   background-color: black;
+   padding: 2px 4px 6px;
+   border-radius: 50%;
+   cursor: pointer;
+   animation-name: scroll;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0%   {background-color: red;}
+  0%   {background-color: rgb(255, 123, 0);}
+  100% {background-color: red;}
+  25%  {background-color: rgb(255, 123, 0);}
+  50%  {background-color: red;}
+  0%  {background-color: rgb(255, 123, 0);}
+}
+
+.scroll-top > *{
+   color: #f7ae09;
+   font-size: 1.4rem;
+}
+.scroll-top.hide {
+   display: none 
+}
+.scroll-top.show {
+   display: block
+} 
+

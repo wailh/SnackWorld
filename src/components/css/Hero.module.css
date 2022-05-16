@@ -1,0 +1,55 @@
+.hero-container {
+    height: 100vh;
+}
+
+.hero {
+    height: 50vh;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.hero img {
+    max-width: 100%;
+    display: block;
+    height: 50vh;
+}
+
+.description {
+    background-color: rgb(0, 0, 0);
+    width: 40vw;
+    color: rgb(253 253 253);
+    border-radius: 10px;
+    margin: -20px auto 0;
+    position: relative;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .description {
+        width: 80vw;
+        padding: 20px 20px;
+    }
+    .description h1{
+        font-size: 1.2rem;
+    }
+    .description p{
+        font-size: .6rem;
+    }
+  }
+@media (min-width: 481px) and (max-width: 768px) {
+    .description {
+        width: 70vw;
+        border-radius: 31px;
+        padding: 59px 30px;
+    }
+  }
+@media (min-width: 769px) and (max-width: 992px) {
+    .description {
+        width: 62vw;
+        border-radius: 20px;
+        margin: -31px auto 0;
+    }
+  }

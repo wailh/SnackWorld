@@ -1,0 +1,127 @@
+.cart {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 40px;
+    min-height: 80%;
+}
+@media (max-width: 768px) {
+    .cart {
+       display: block  ;
+       padding: 40px 10px;    
+    }
+  }
+
+.title{
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-left {
+    background-color: rgb(35, 41, 56);
+    color:azure;
+    width: 400px;
+    border-radius: 20px;
+    padding: 50px 30px 30px; 
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .cart {
+       display: block      
+    }
+}
+
+.cart-left h3 {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+
+.cart-left > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cart-left > div p {
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cart-left > span {
+   display: block;
+   background-color: aliceblue;
+   margin-bottom: 10px;
+   color:rgb(35, 41, 56);
+   text-align: center;
+   padding: 5px 0;
+   font-weight: bold;
+   font-size: 1.2rem;
+   border-radius: 20px;
+}
+
+.cart-left .check-out {
+   margin-top: 1.9rem;
+   color:rgb(252, 128, 39);
+   margin-bottom: 1.5rem;
+   cursor: pointer;
+   transition: ease-in-out;
+}
+.cart-left .check-out:hover {
+    color:aliceblue;
+    background-color:rgb(252, 128, 39);
+ }
+.cart-left .clear-cart {
+   cursor: pointer;
+}
+.cart-left .clear-cart:hover {
+    color:aliceblue;
+    background-color:rgb(255, 0, 0);
+}
+
+.cart-right {
+    padding: 12px 40px;
+}
+@media (max-width: 768px) {
+    .cart-right {
+        padding:0;
+    }
+  }
+.cart-right .table {
+    display: table;
+    width: 100%;
+}
+.cart-right .table .table-header-box {
+    display: table-header-group;
+    font-weight: bold;
+}
+.cart-right .table .table-header-box .table-title {
+    display: table-cell;
+    text-align: center;
+    width: 25%;
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .cart-right .table .table-header-box .table-title {
+        display: block;
+    }
+  }
+.cart-right .table .table-row-box {
+    display: table-row-group;
+}
+.cart-right .table .table-row-container {
+    display: table-row;
+}
+.cart-right .table .table-row-box .table-row{
+    display: table-cell;
+    text-align: center;
+    padding-top: 3rem;
+    width: 25%;
+}
+.cart-right .table .table-row-box .table-row p{
+    display: inline-block;
+    margin-right: 1rem;
+}

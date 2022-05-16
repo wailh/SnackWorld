@@ -1,0 +1,66 @@
+.menu {
+    padding: 10px 20px 0;
+    width: 20%;
+}
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        display: block;
+        padding: 0
+    }
+  }
+
+.menu h3 {
+    border-bottom: 1px solid #686464;
+    padding: 0 0 10px 10px;
+    color: #242424;
+}
+
+@media (max-width: 768px) {
+  .menu h3 {
+    padding: 0 0 6px 5px;
+    width: 7rem;
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+.list {
+    list-style: none;
+    
+    padding: 0 25px;
+}
+@media (max-width: 768px) {
+    .list {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+  }
+
+.list li {
+    font-size: large;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+    align-self: center;
+    line-height: 2.5;
+    padding: 0 5px;
+    position: relative;
+}
+@media (max-width: 480px) {
+    .list li{
+        font-size: 1rem;
+    }
+  }
+@media (min-width: 481px) and (max-width: 768px) {
+    .list li{
+        font-size: 1.2rem;
+        margin-right: 4px;
+    }
+  }
+
+.list li:hover {
+        color:rgb(51, 51, 50);
+        background-color: rgb(209, 205, 205);
+        border-radius: 10px;
+}
