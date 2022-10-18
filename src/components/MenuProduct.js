@@ -21,7 +21,7 @@ const MenuProduct = ({product}) => {
                 <RouterLink to='/orderPage' state={ product }>
                   <span className={classes.button}>Order Now</span>
                 </RouterLink>
-                 <span className={classes.value}>${price}</span>
+                 <span className={classes.value}>¥{price}</span>
              </div>
         </div>
      );
