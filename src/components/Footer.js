@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div className={classes.info}>
                 <h2>SnackWorld Chinese Restaurant</h2>
-                <p>Rue Didouche Mourad, Algiers, Algeria</p>
+                <p>Fengtai district, Beijing, China </p>
                 <p>(+213) 589-654-123</p>
                 <p>Email: wail.info21@gmail.com</p>
                 <div className={classes.social}>
