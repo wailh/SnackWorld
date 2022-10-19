@@ -14,9 +14,9 @@ const Hero = () => {
                 showStatus={false}
                 showIndicators={false}
             >
-                <img src="./food/2.jpg" />
-                <img src="./food/3.jpg" />
-                <img src="./food/4.jpg" />
+                <img src="./food/2.png" />
+                <img src="./food/3.png" />
+                <img src="./food/4.png" />
             </Carousel>
             <div className={classes.description}>
                  <h1>At SnackWorld</h1>
